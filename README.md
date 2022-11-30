@@ -6,8 +6,12 @@
 - Héctor Abreu Acosta (alu0101068855)
 ---
 ### Objetivo de la práctica
+
 El objetivo de la práctica es implementar un sistema de recomendación siguiendo el modelo basado en el contenido.
+
+
 ---
+
 ### Archivos necesarios
 Para esta práctica contamos con 3 ficheros aparte del programa principal:
 - Fichero de texto plano. Cada documento viene representado en una línea del fichero.
@@ -54,10 +58,10 @@ against
 ---
 ### Ejecución del programa
 
-Para visualizar la información por consola, ejecutamos el comando:
+Para visualizar la información por consola, ejecutamos el comando una vez estemos situados en la ruta **/src**:
 
 ```
-$ node index.js -d documento.txt -p stop-words.txt -l lematizacion.txt
+/src$ node index.js -d documento.txt -p stop-words.txt -l lematizacion.txt
 ```
 
 Donde **-d** puede sustituirse por **--documento**, **-p** por **--palabra** y **-l** por **--lematizacion**, siguiendo el estilo [POSIX](https://nullprogram.com/blog/2020/08/01/)
@@ -69,7 +73,7 @@ A continuación podemos observar una imagen de ejemplo de uso:
 En caso de querer volcar la información en un fichero, escribimos `> nombreFichero.txt` al final del comando. Como por ejemplo:
 
 ```
-$ node index.js -d documento.txt -p stop-words.txt -l lematizacion.txt > ficheroSalida.txt
+/src$ node index.js -d documento.txt -p stop-words.txt -l lematizacion.txt > ficheroSalida.txt
 ```
 
 Para comprobar el correcto funcionamiento de la práctica, se han empleado los ficheros proporcionados:
