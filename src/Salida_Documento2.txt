@@ -1,0 +1,306 @@
+Documento  0 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	            dry 	 1	 0.699	0.699	
+2    	          spicy 	 1	 1	1	
+3    	          tight 	 1	 1	1	
+4    	           taut 	 1	 1	1	
+5    	        texture 	 1	 1	1	
+6    	       strongly 	 1	 1	1	
+7    	        mineral 	 1	 1	1	
+8    	      character 	 1	 0.699	0.699	
+9    	        layered 	 1	 1	1	
+10    	         citrus 	 1	 1	1	
+11    	         pepper 	 1	 0.523	0.523	
+12    	           food 	 1	 1	1	
+13    	           wine 	 2	 0.523	1.046	
+14    	          crisp 	 1	 1	1	
+15    	     aftertaste 	 1	 1	1	
+
+
+
+Documento  1 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	       slightly 	 1	 0.699	0.699	
+2    	        reduced 	 1	 1	1	
+3    	           wine 	 1	 0.523	0.523	
+4    	         offers 	 1	 1	1	
+5    	         chalky 	 1	 1	1	
+6    	         tannic 	 1	 0.699	0.699	
+7    	       backbone 	 1	 1	1	
+8    	          juicy 	 1	 0.699	0.699	
+9    	      explosion 	 1	 1	1	
+10    	           rich 	 1	 1	1	
+11    	          black 	 1	 0.699	0.699	
+12    	         cherry 	 1	 0.699	0.699	
+13    	       accented 	 1	 1	1	
+14    	           firm 	 1	 1	1	
+15    	            oak 	 1	 0.398	0.398	
+16    	          cigar 	 1	 0.699	0.699	
+17    	            box 	 1	 0.699	0.699	
+
+
+
+Documento  2 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	      dominated 	 1	 1	1	
+2    	            oak 	 1	 0.398	0.398	
+3    	     oak-driven 	 1	 0.699	0.699	
+4    	         aromas 	 1	 0.222	0.222	
+5    	        include 	 1	 1	1	
+6    	        roasted 	 1	 1	1	
+7    	         coffee 	 1	 1	1	
+8    	           bean 	 1	 1	1	
+9    	       espresso 	 1	 1	1	
+10    	        coconut 	 1	 1	1	
+11    	        vanilla 	 1	 0.699	0.699	
+12    	          carry 	 1	 0.699	0.699	
+13    	         palate 	 1	 0.301	0.301	
+14    	           plum 	 1	 0.523	0.523	
+15    	      chocolate 	 1	 1	1	
+16    	     astringent 	 1	 1	1	
+17    	         drying 	 1	 1	1	
+18    	        tannins 	 1	 1	1	
+19    	           give 	 1	 1	1	
+20    	         abrupt 	 1	 1	1	
+21    	         finish 	 1	 0.523	0.523	
+
+
+
+Documento  3 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	       building 	 1	 1	1	
+2    	            150 	 1	 1	1	
+3    	          years 	 1	 1	1	
+4    	    generations 	 1	 1	1	
+5    	     winemaking 	 1	 1	1	
+6    	      tradition 	 1	 1	1	
+7    	         winery 	 1	 1	1	
+8    	         trends 	 1	 1	1	
+9    	         leaner 	 1	 1	1	
+10    	          style 	 1	 1	1	
+11    	        classic 	 1	 1	1	
+12    	     california 	 1	 1	1	
+13    	    buttercream 	 1	 1	1	
+14    	          aroma 	 1	 1	1	
+15    	            cut 	 1	 1	1	
+16    	           tart 	 1	 0.699	0.699	
+17    	          green 	 1	 0.699	0.699	
+18    	          apple 	 1	 0.699	0.699	
+19    	           good 	 1	 0.699	0.699	
+20    	       everyday 	 1	 1	1	
+21    	        sipping 	 1	 1	1	
+22    	           wine 	 1	 0.523	0.523	
+23    	        flavors 	 1	 0.523	0.523	
+24    	          range 	 1	 1	1	
+25    	           pear 	 1	 1	1	
+26    	         barely 	 1	 1	1	
+27    	           ripe 	 1	 0.699	0.699	
+28    	      pineapple 	 1	 1	1	
+29    	          prove 	 1	 1	1	
+30    	   approachable 	 1	 0.699	0.699	
+31    	    distinctive 	 1	 1	1	
+
+
+
+Documento  4 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          zesty 	 1	 1	1	
+2    	         orange 	 1	 1	1	
+3    	          peels 	 1	 1	1	
+4    	          apple 	 1	 0.699	0.699	
+5    	          notes 	 1	 0.523	0.523	
+6    	         abound 	 1	 1	1	
+7    	      sprightly 	 1	 1	1	
+8    	  mineral-toned 	 1	 1	1	
+9    	       riesling 	 1	 1	1	
+10    	            dry 	 1	 0.699	0.699	
+11    	         palate 	 1	 0.301	0.301	
+12    	           racy 	 1	 1	1	
+13    	           lean 	 1	 1	1	
+14    	     refreshing 	 1	 1	1	
+15    	           easy 	 1	 1	1	
+16    	        quaffer 	 1	 1	1	
+17    	           wide 	 1	 1	1	
+18    	         appeal 	 1	 1	1	
+
+
+
+Documento  5 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          baked 	 1	 1	1	
+2    	       molasses 	 1	 1	1	
+3    	       balsamic 	 1	 1	1	
+4    	        vinegar 	 1	 1	1	
+5    	         cheesy 	 1	 1	1	
+6    	            oak 	 1	 0.398	0.398	
+7    	         aromas 	 1	 0.222	0.222	
+8    	           feed 	 1	 1	1	
+9    	         palate 	 1	 0.301	0.301	
+10    	         braced 	 1	 1	1	
+11    	           bolt 	 1	 1	1	
+12    	        acidity 	 1	 1	1	
+13    	        compact 	 1	 1	1	
+14    	            set 	 1	 1	1	
+15    	          saucy 	 1	 1	1	
+16    	      red-berry 	 1	 1	1	
+17    	           plum 	 2	 0.523	1.046	
+18    	        flavors 	 1	 0.523	0.523	
+19    	       features 	 1	 1	1	
+20    	        tobacco 	 1	 0.699	0.699	
+21    	        peppery 	 1	 1	1	
+22    	        accents 	 1	 1	1	
+23    	         finish 	 1	 0.523	0.523	
+24    	         mildly 	 1	 1	1	
+25    	          green 	 1	 0.699	0.699	
+26    	         flavor 	 1	 0.699	0.699	
+27    	    respectable 	 1	 1	1	
+28    	         weight 	 1	 1	1	
+29    	        balance 	 1	 1	1	
+
+
+
+Documento  6 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	            raw 	 1	 1	1	
+2    	   black-cherry 	 1	 1	1	
+3    	         aromas 	 1	 0.222	0.222	
+4    	         direct 	 1	 1	1	
+5    	         simple 	 1	 1	1	
+6    	           good 	 1	 0.699	0.699	
+7    	          juicy 	 1	 0.699	0.699	
+8    	           feel 	 1	 1	1	
+9    	       thickens 	 1	 1	1	
+10    	           time 	 1	 1	1	
+11    	      character 	 1	 0.699	0.699	
+12    	        extract 	 1	 1	1	
+13    	       apparent 	 1	 1	1	
+14    	         flavor 	 1	 0.699	0.699	
+15    	        profile 	 1	 1	1	
+16    	         driven 	 1	 1	1	
+17    	     dark-berry 	 1	 1	1	
+18    	         fruits 	 1	 1	1	
+19    	     smoldering 	 1	 1	1	
+20    	            oak 	 2	 0.398	0.796	
+21    	       finishes 	 1	 1	1	
+22    	          meaty 	 1	 1	1	
+23    	            hot 	 1	 1	1	
+
+
+
+Documento  7 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	     desiccated 	 1	 1	1	
+2    	        leather 	 1	 1	1	
+3    	        charred 	 1	 1	1	
+4    	           wood 	 1	 1	1	
+5    	           mint 	 1	 1	1	
+6    	          carry 	 1	 0.699	0.699	
+7    	           nose 	 1	 0.699	0.699	
+8    	    full-bodied 	 1	 1	1	
+9    	         tannic 	 1	 0.699	0.699	
+10    	        heavily 	 1	 1	1	
+11    	          oaked 	 1	 1	1	
+12    	          tinto 	 1	 1	1	
+13    	           fino 	 1	 1	1	
+14    	        flavors 	 1	 0.523	0.523	
+15    	          clove 	 1	 1	1	
+16    	      woodspice 	 1	 1	1	
+17    	            sit 	 1	 1	1	
+18    	            top 	 1	 1	1	
+19    	     blackberry 	 2	 1	2	
+20    	          fruit 	 1	 0.699	0.699	
+21    	        hickory 	 1	 1	1	
+22    	       forceful 	 1	 1	1	
+23    	      oak-based 	 1	 1	1	
+24    	         aromas 	 2	 0.222	0.444	
+25    	           rise 	 1	 1	1	
+26    	       dominate 	 1	 1	1	
+27    	         finish 	 1	 0.523	0.523	
+
+
+
+Documento  8 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	            red 	 1	 0.699	0.699	
+2    	          fruit 	 1	 0.699	0.699	
+3    	         aromas 	 1	 0.222	0.222	
+4    	        pervade 	 1	 1	1	
+5    	           nose 	 1	 0.699	0.699	
+6    	          cigar 	 1	 0.699	0.699	
+7    	            box 	 1	 0.699	0.699	
+8    	        menthol 	 1	 1	1	
+9    	         riding 	 1	 1	1	
+10    	         palate 	 1	 0.301	0.301	
+11    	       slightly 	 1	 0.699	0.699	
+12    	     restrained 	 1	 1	1	
+13    	          entry 	 1	 1	1	
+14    	          opens 	 1	 1	1	
+15    	          riper 	 1	 1	1	
+16    	          notes 	 2	 0.523	1.046	
+17    	         cherry 	 1	 0.699	0.699	
+18    	           plum 	 1	 0.523	0.523	
+19    	        specked 	 1	 1	1	
+20    	        crushed 	 1	 1	1	
+21    	         pepper 	 1	 0.523	0.523	
+22    	          blend 	 1	 1	1	
+23    	         merlot 	 1	 1	1	
+24    	      sauvignon 	 1	 1	1	
+25    	       cabernet 	 2	 1	2	
+26    	          franc 	 1	 1	1	
+27    	   approachable 	 1	 0.699	0.699	
+28    	          ready 	 1	 1	1	
+29    	        enjoyed 	 1	 1	1	
+
+
+
+Documento  9 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	           ripe 	 1	 0.699	0.699	
+2    	         aromas 	 1	 0.222	0.222	
+3    	           dark 	 1	 1	1	
+4    	        berries 	 1	 1	1	
+5    	         mingle 	 1	 1	1	
+6    	          ample 	 1	 1	1	
+7    	          black 	 1	 0.699	0.699	
+8    	         pepper 	 1	 0.523	0.523	
+9    	        toasted 	 1	 1	1	
+10    	        vanilla 	 1	 0.699	0.699	
+11    	          dusty 	 1	 1	1	
+12    	        tobacco 	 1	 0.699	0.699	
+13    	         palate 	 1	 0.301	0.301	
+14    	     oak-driven 	 1	 0.699	0.699	
+15    	         nature 	 1	 1	1	
+16    	          notes 	 2	 0.523	1.046	
+17    	           tart 	 1	 0.699	0.699	
+18    	            red 	 1	 0.699	0.699	
+19    	        currant 	 1	 1	1	
+20    	          shine 	 1	 1	1	
+21    	       offering 	 1	 1	1	
+22    	            bit 	 1	 1	1	
+23    	         levity 	 1	 1	1	
+
+
+
+Similitud entre documentos 
+
+	Doc0	Doc1	Doc2	Doc3	Doc4	Doc5	Doc6	Doc7	Doc8	Doc9	
+Doc0	1	0.043	0	0.029	0.034	0	0.03	0	0.015	0.018
+Doc1	0.043	1	0.012	0.015	0	0.01	0.053	0.028	0.114	0.034
+Doc2	0	0.012	1	0	0.006	0.059	0.021	0.043	0.021	0.069
+Doc3	0.029	0.015	0	1	0.024	0.031	0.021	0.01	0.019	0.046
+Doc4	0.034	0	0.006	0.024	1	0.005	0	0	0.033	0.04
+Doc5	0	0.01	0.059	0.031	0.005	1	0.04	0.026	0.029	0.032
+Doc6	0.03	0.053	0.021	0.021	0	0.04	1	0.004	0.002	0.003
+Doc7	0	0.028	0.043	0.01	0	0.026	0.004	1	0.043	0.005
+Doc8	0.015	0.114	0.021	0.019	0.033	0.029	0.002	0.043	1	0.098
+Doc9	0.018	0.034	0.069	0.046	0.04	0.032	0.003	0.005	0.098	1

@@ -1,0 +1,518 @@
+Documento  0 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	            red 	 1	 0.824	0.824	
+2    	         cherry 	 1	 1.301	1.301	
+3    	          fruit 	 1	 0.301	0.301	
+4    	          laced 	 1	 1.301	1.301	
+5    	          light 	 1	 1.301	1.301	
+6    	        tannins 	 1	 0.699	0.699	
+7    	         giving 	 1	 1	1	
+8    	         bright 	 1	 0.824	0.824	
+9    	           wine 	 1	 0.26	0.26	
+10    	           open 	 1	 1	1	
+11    	          juicy 	 1	 0.824	0.824	
+12    	      character 	 1	 1	1	
+
+
+
+Documento  1 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	         merlot 	 1	 1.301	1.301	
+2    	           nero 	 1	 1.301	1.301	
+3    	        d'avola 	 1	 1.301	1.301	
+4    	           form 	 1	 1.301	1.301	
+5    	           base 	 1	 1.301	1.301	
+6    	           easy 	 1	 1.301	1.301	
+7    	            red 	 1	 0.824	0.824	
+8    	           wine 	 1	 0.26	0.26	
+9    	           pair 	 1	 0.699	0.699	
+10    	     fettuccine 	 1	 1.301	1.301	
+11    	           meat 	 1	 1	1	
+12    	          sauce 	 1	 1	1	
+13    	           pork 	 1	 1.301	1.301	
+14    	          roast 	 1	 1.301	1.301	
+15    	        quality 	 1	 1	1	
+16    	          fruit 	 1	 0.301	0.301	
+17    	          clean 	 1	 0.824	0.824	
+18    	         bright 	 1	 0.824	0.824	
+19    	          sharp 	 1	 1.301	1.301	
+
+
+
+Documento  2 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	           part 	 1	 1	1	
+2    	       extended 	 1	 1.301	1.301	
+3    	       calanìca 	 1	 1.301	1.301	
+4    	         series 	 1	 1.301	1.301	
+5    	grillo-viognier 	 1	 1.301	1.301	
+6    	          blend 	 1	 0.824	0.824	
+7    	         aromas 	 1	 0.602	0.602	
+8    	    honeysuckle 	 1	 1.301	1.301	
+9    	        jasmine 	 1	 1.301	1.301	
+10    	         backed 	 1	 1	1	
+11    	        touches 	 1	 1	1	
+12    	            cut 	 1	 1.301	1.301	
+13    	          grass 	 1	 1	1	
+14    	           wild 	 1	 1.301	1.301	
+15    	           sage 	 1	 1.301	1.301	
+16    	          mouth 	 1	 1.301	1.301	
+17    	          shows 	 2	 0.824	1.648	
+18    	           ripe 	 1	 0.699	0.699	
+19    	   yellow-fruit 	 1	 1.301	1.301	
+20    	        flavors 	 1	 0.398	0.398	
+
+
+
+Documento  3 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	         rustic 	 1	 1.301	1.301	
+2    	            dry 	 1	 1	1	
+3    	        flavors 	 1	 0.398	0.398	
+4    	        berries 	 1	 1.301	1.301	
+5    	       currants 	 1	 1.301	1.301	
+6    	       licorice 	 1	 1.301	1.301	
+7    	         spices 	 1	 1.301	1.301	
+8    	          franc 	 1	 1.301	1.301	
+9    	       cabernet 	 2	 1	2	
+10    	      sauvignon 	 1	 0.699	0.699	
+
+
+
+Documento  4 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          shows 	 1	 0.824	0.824	
+2    	           tart 	 1	 1.301	1.301	
+3    	          green 	 1	 1	1	
+4    	     gooseberry 	 1	 1	1	
+5    	         flavor 	 1	 0.602	0.602	
+6    	        similar 	 1	 1.301	1.301	
+7    	        zealand 	 1	 1	1	
+8    	      sauvignon 	 1	 0.699	0.699	
+9    	          blanc 	 1	 0.824	0.824	
+10    	          notes 	 1	 0.523	0.523	
+11    	        include 	 1	 1.301	1.301	
+12    	       tropical 	 1	 1	1	
+13    	          fruit 	 1	 0.301	0.301	
+14    	         orange 	 1	 1	1	
+15    	          honey 	 1	 0.824	0.824	
+16    	        unoaked 	 1	 1.301	1.301	
+17    	         splash 	 1	 1.301	1.301	
+18    	         muscat 	 1	 1.301	1.301	
+19    	    commendable 	 1	 1.301	1.301	
+20    	        dryness 	 1	 1.301	1.301	
+21    	        acidity 	 1	 0.824	0.824	
+
+
+
+Documento  5 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          erath 	 1	 1.301	1.301	
+2    	           2010 	 1	 1.301	1.301	
+3    	       vineyard 	 1	 1.301	1.301	
+4    	     designates 	 1	 1.301	1.301	
+5    	       strongly 	 1	 1.301	1.301	
+6    	         herbal 	 1	 1.301	1.301	
+7    	          notes 	 1	 0.523	0.523	
+8    	           leaf 	 1	 1.301	1.301	
+9    	           herb 	 1	 1	1	
+10    	         create 	 1	 1.301	1.301	
+11    	         unripe 	 1	 1.301	1.301	
+12    	         flavor 	 1	 0.602	0.602	
+13    	    impressions 	 1	 1.301	1.301	
+14    	          touch 	 1	 1	1	
+15    	     bitterness 	 1	 1	1	
+16    	         finish 	 1	 0.602	0.602	
+17    	          fruit 	 1	 0.301	0.301	
+18    	         passes 	 1	 1.301	1.301	
+19    	       ripeness 	 1	 1.301	1.301	
+20    	          sweet 	 1	 0.699	0.699	
+21    	       tomatoes 	 1	 1.301	1.301	
+
+
+
+Documento  6 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          white 	 1	 0.824	0.824	
+2    	         flower 	 1	 1.301	1.301	
+3    	         lychee 	 1	 1.301	1.301	
+4    	          apple 	 1	 1.301	1.301	
+5    	         aromas 	 1	 0.602	0.602	
+6    	          carry 	 1	 1.301	1.301	
+7    	         mellow 	 1	 1.301	1.301	
+8    	        bouquet 	 1	 1.301	1.301	
+9    	 chunky-feeling 	 1	 1.301	1.301	
+10    	         palate 	 1	 0.602	0.602	
+11    	          bears 	 1	 1.301	1.301	
+12    	        powdery 	 1	 1.301	1.301	
+13    	          sweet 	 1	 0.699	0.699	
+14    	        flavors 	 1	 0.398	0.398	
+15    	          peach 	 1	 1.301	1.301	
+16    	          melon 	 1	 1.301	1.301	
+17    	          mixed 	 1	 1.301	1.301	
+18    	        greener 	 1	 1.301	1.301	
+19    	          notes 	 1	 0.523	0.523	
+20    	          grass 	 1	 1	1	
+21    	           lime 	 1	 1.301	1.301	
+22    	            80% 	 1	 1.301	1.301	
+23    	       viognier 	 1	 1.301	1.301	
+24    	      component 	 1	 1.301	1.301	
+25    	        typical 	 1	 1.301	1.301	
+26    	           warm 	 1	 1.301	1.301	
+27    	        climate 	 1	 1.301	1.301	
+28    	          plump 	 1	 1	1	
+29    	           oily 	 1	 1.301	1.301	
+30    	          short 	 1	 1.301	1.301	
+31    	         finish 	 1	 0.602	0.602	
+32    	     chardonnay 	 1	 1.301	1.301	
+33    	          fills 	 1	 1.301	1.301	
+34    	          blend 	 1	 0.824	0.824	
+
+
+
+Documento  7 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	   concentrated 	 1	 1.301	1.301	
+2    	       cabernet 	 1	 1	1	
+3    	         offers 	 1	 1	1	
+4    	         aromas 	 1	 0.602	0.602	
+5    	          cured 	 1	 1.301	1.301	
+6    	           meat 	 1	 1	1	
+7    	          dried 	 1	 1.301	1.301	
+8    	          fruit 	 1	 0.301	0.301	
+9    	       rosemary 	 1	 1.301	1.301	
+10    	       barbecue 	 1	 1.301	1.301	
+11    	          spice 	 1	 1.301	1.301	
+12    	       teriyaki 	 1	 1.301	1.301	
+13    	          sauce 	 1	 1	1	
+14    	        flavors 	 1	 0.398	0.398	
+15    	           give 	 1	 1.301	1.301	
+16    	           wine 	 1	 0.26	0.26	
+17    	           bold 	 1	 1.301	1.301	
+18    	          chewy 	 1	 1.301	1.301	
+19    	           feel 	 1	 1.301	1.301	
+
+
+
+Documento  8 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	           inky 	 1	 1.301	1.301	
+2    	          color 	 1	 1.301	1.301	
+3    	           wine 	 1	 0.26	0.26	
+4    	          plump 	 1	 1	1	
+5    	         aromas 	 1	 0.602	0.602	
+6    	           ripe 	 1	 0.699	0.699	
+7    	          fruit 	 1	 0.301	0.301	
+8    	     blackberry 	 1	 1.301	1.301	
+9    	            jam 	 1	 1.301	1.301	
+10    	            rum 	 1	 1.301	1.301	
+11    	           cake 	 1	 1.301	1.301	
+12    	         palate 	 1	 0.602	0.602	
+13    	           soft 	 1	 0.824	0.824	
+14    	         smooth 	 1	 1.301	1.301	
+
+
+
+Documento  9 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	           part 	 1	 1	1	
+2    	        natural 	 1	 1.301	1.301	
+3    	       movement 	 1	 1.301	1.301	
+4    	           wine 	 2	 0.26	0.52	
+5    	        organic 	 1	 1.301	1.301	
+6    	         grapes 	 1	 1.301	1.301	
+7    	          label 	 1	 1.301	1.301	
+8    	        printed 	 1	 1.301	1.301	
+9    	      vegetable 	 1	 1.301	1.301	
+10    	            ink 	 1	 1.301	1.301	
+11    	       recycled 	 1	 1.301	1.301	
+12    	          paper 	 1	 1.301	1.301	
+13    	        quality 	 1	 1	1	
+14    	          fruit 	 1	 0.301	0.301	
+15    	           nice 	 1	 1.301	1.301	
+16    	          juicy 	 1	 0.824	0.824	
+17    	         palate 	 1	 0.602	0.602	
+18    	         bright 	 1	 0.824	0.824	
+19    	          berry 	 1	 0.699	0.699	
+20    	         flavor 	 1	 0.602	0.602	
+21    	         finish 	 1	 0.602	0.602	
+
+
+
+Documento  10 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	     catarratto 	 1	 1.301	1.301	
+2    	       sicily's 	 1	 1.301	1.301	
+3    	         widely 	 1	 1.301	1.301	
+4    	         farmed 	 1	 1.301	1.301	
+5    	          white 	 1	 0.824	0.824	
+6    	          grape 	 1	 1.301	1.301	
+7    	      varieties 	 1	 1.301	1.301	
+8    	     expression 	 1	 1.301	1.301	
+9    	          shows 	 1	 0.824	0.824	
+10    	        mineral 	 1	 1	1	
+11    	           note 	 1	 1.301	1.301	
+12    	         backed 	 1	 1	1	
+13    	         citrus 	 1	 0.824	0.824	
+14    	         almond 	 1	 1.301	1.301	
+15    	        blossom 	 1	 1.301	1.301	
+16    	        touches 	 1	 1	1	
+
+
+
+Documento  11 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          stiff 	 1	 1.301	1.301	
+2    	         tannic 	 1	 1.301	1.301	
+3    	           wine 	 1	 0.26	0.26	
+4    	         slowly 	 1	 1.301	1.301	
+5    	          opens 	 1	 1.301	1.301	
+6    	         brings 	 1	 1.301	1.301	
+7    	        brambly 	 1	 1.301	1.301	
+8    	          berry 	 1	 0.699	0.699	
+9    	        flavors 	 1	 0.398	0.398	
+10    	           play 	 1	 1.301	1.301	
+11    	          notes 	 1	 0.523	0.523	
+12    	         earthy 	 1	 1.301	1.301	
+13    	          herbs 	 1	 1.301	1.301	
+14    	          touch 	 1	 1	1	
+15    	     bitterness 	 1	 1	1	
+16    	        tannins 	 1	 0.699	0.699	
+
+
+
+Documento  12 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	        festive 	 1	 1.301	1.301	
+2    	           wine 	 1	 0.26	0.26	
+3    	           soft 	 1	 0.824	0.824	
+4    	           ripe 	 1	 0.699	0.699	
+5    	          fruit 	 1	 0.301	0.301	
+6    	        acidity 	 1	 0.824	0.824	
+7    	            red 	 1	 0.824	0.824	
+8    	          berry 	 1	 0.699	0.699	
+9    	         flavor 	 1	 0.602	0.602	
+
+
+
+Documento  13 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          clean 	 1	 0.824	0.824	
+2    	          brisk 	 1	 1.301	1.301	
+3    	      mouthfeel 	 1	 1.301	1.301	
+4    	       slightly 	 1	 1.301	1.301	
+5    	          oaked 	 1	 1.301	1.301	
+6    	      sauvignon 	 1	 0.699	0.699	
+7    	          blanc 	 1	 0.824	0.824	
+8    	        instant 	 1	 1.301	1.301	
+9    	    likeability 	 1	 1.301	1.301	
+10    	            dry 	 1	 1	1	
+11    	           rich 	 1	 1.301	1.301	
+12    	         streak 	 1	 1.301	1.301	
+13    	          honey 	 1	 0.824	0.824	
+14    	       sweetens 	 1	 1.301	1.301	
+15    	         citrus 	 1	 0.824	0.824	
+16    	           pear 	 1	 1.301	1.301	
+17    	       tropical 	 1	 1	1	
+18    	          fruit 	 1	 0.301	0.301	
+19    	        flavors 	 1	 0.398	0.398	
+20    	           pair 	 1	 0.699	0.699	
+21    	          asian 	 1	 1.301	1.301	
+22    	           fare 	 1	 1.301	1.301	
+23    	            ham 	 1	 1.301	1.301	
+24    	          green 	 1	 1	1	
+25    	          salad 	 1	 1.301	1.301	
+26    	     grapefruit 	 1	 1	1	
+27    	       sections 	 1	 1.301	1.301	
+
+
+
+Documento  14 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          berry 	 1	 0.699	0.699	
+2    	          aroma 	 1	 1.301	1.301	
+3    	           cola 	 1	 1.301	1.301	
+4    	           herb 	 1	 1	1	
+5    	          notes 	 1	 0.523	0.523	
+6    	         palate 	 1	 0.602	0.602	
+7    	          tangy 	 1	 1.301	1.301	
+8    	           racy 	 1	 1.301	1.301	
+9    	       delivers 	 1	 1.301	1.301	
+10    	      raspberry 	 1	 1.301	1.301	
+11    	           plum 	 1	 1.301	1.301	
+12    	        flavors 	 1	 0.398	0.398	
+13    	         modest 	 1	 1.301	1.301	
+14    	         finish 	 1	 0.602	0.602	
+
+
+
+Documento  15 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	       starting 	 1	 1.301	1.301	
+2    	         blocks 	 1	 1.301	1.301	
+3    	           oaky 	 1	 1.301	1.301	
+4    	           wine 	 1	 0.26	0.26	
+5    	       dripping 	 1	 1.301	1.301	
+6    	        caramel 	 1	 1.301	1.301	
+7    	        vanilla 	 1	 1	1	
+8    	          notes 	 1	 0.523	0.523	
+9    	        texture 	 1	 1.301	1.301	
+10    	      midpalate 	 1	 1.301	1.301	
+11    	       finessed 	 1	 1.301	1.301	
+12    	       graceful 	 1	 1.301	1.301	
+13    	         drying 	 1	 1	1	
+14    	        tannins 	 1	 0.699	0.699	
+15    	          latch 	 1	 1.301	1.301	
+16    	     oak-driven 	 1	 1.301	1.301	
+17    	         finish 	 1	 0.602	0.602	
+18    	      eccentric 	 1	 1.301	1.301	
+19    	          blend 	 1	 0.824	0.824	
+20    	            50% 	 1	 1.301	1.301	
+21    	         tannat 	 1	 1.301	1.301	
+22    	            35% 	 1	 1.301	1.301	
+23    	          petit 	 1	 1.301	1.301	
+24    	         verdot 	 1	 1.301	1.301	
+25    	            15% 	 1	 1.301	1.301	
+26    	       pinotage 	 1	 1.301	1.301	
+
+
+
+Documento  16 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          spicy 	 1	 1.301	1.301	
+2    	          fresh 	 1	 1.301	1.301	
+3    	          clean 	 1	 0.824	0.824	
+4    	           pair 	 1	 0.699	0.699	
+5    	          fried 	 1	 1.301	1.301	
+6    	        seafood 	 1	 1.301	1.301	
+7    	      spaghetti 	 1	 1.301	1.301	
+8    	            con 	 1	 1.301	1.301	
+9    	        vongole 	 1	 1.301	1.301	
+10    	         offers 	 1	 1	1	
+11    	         pretty 	 1	 1.301	1.301	
+12    	         citrus 	 1	 0.824	0.824	
+13    	          tones 	 1	 1.301	1.301	
+14    	         drying 	 1	 1	1	
+15    	        mineral 	 1	 1	1	
+16    	         nuance 	 1	 1.301	1.301	
+
+
+
+Documento  17 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          sweet 	 1	 0.699	0.699	
+2    	           wine 	 1	 0.26	0.26	
+3    	        flavors 	 1	 0.398	0.398	
+4    	          white 	 1	 0.824	0.824	
+5    	          sugar 	 1	 1.301	1.301	
+6    	         orange 	 1	 1	1	
+7    	          honey 	 1	 0.824	0.824	
+8    	        vanilla 	 1	 1	1	
+9    	     brightened 	 1	 1.301	1.301	
+10    	          crisp 	 1	 1.301	1.301	
+11    	        acidity 	 1	 0.824	0.824	
+
+
+
+Documento  18 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	       bottling 	 1	 1.301	1.301	
+2    	      resembles 	 1	 1.301	1.301	
+3    	        zealand 	 1	 1	1	
+4    	       paradigm 	 1	 1.301	1.301	
+5    	      sauvignon 	 1	 0.699	0.699	
+6    	          blanc 	 1	 0.824	0.824	
+7    	        bearing 	 1	 1.301	1.301	
+8    	         aromas 	 1	 0.602	0.602	
+9    	     grapefruit 	 1	 1	1	
+10    	        passion 	 1	 1.301	1.301	
+11    	          fruit 	 1	 0.301	0.301	
+12    	           kiwi 	 1	 1.301	1.301	
+13    	     sprinkling 	 1	 1.301	1.301	
+14    	         graham 	 1	 1.301	1.301	
+15    	        cracker 	 1	 1.301	1.301	
+16    	           adds 	 1	 1.301	1.301	
+17    	       interest 	 1	 1.301	1.301	
+18    	           wine 	 1	 0.26	0.26	
+19    	           hits 	 1	 1.301	1.301	
+20    	         palate 	 1	 0.602	0.602	
+21    	         fleshy 	 1	 1.301	1.301	
+22    	           fist 	 1	 1.301	1.301	
+23    	        intense 	 1	 1.301	1.301	
+24    	         grassy 	 1	 1.301	1.301	
+25    	     gooseberry 	 1	 1	1	
+26    	         flavor 	 1	 0.602	0.602	
+27    	         plenty 	 1	 1.301	1.301	
+28    	          punch 	 1	 1.301	1.301	
+29    	           pair 	 1	 0.699	0.699	
+30    	 apricot-glazed 	 1	 1.301	1.301	
+31    	        roasted 	 1	 1.301	1.301	
+32    	        chicken 	 1	 1.301	1.301	
+
+
+
+Documento  19 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	           soft 	 1	 0.824	0.824	
+2    	         fruity 	 1	 1.301	1.301	
+3    	       generous 	 1	 1.301	1.301	
+4    	           ripe 	 1	 0.699	0.699	
+5    	           full 	 1	 1.301	1.301	
+6    	          juicy 	 1	 0.824	0.824	
+7    	     red-cherry 	 1	 1.301	1.301	
+8    	         fruits 	 1	 1.301	1.301	
+9    	         gentle 	 1	 1.301	1.301	
+10    	        tannins 	 1	 0.699	0.699	
+11    	       richness 	 1	 1.301	1.301	
+12    	         giving 	 1	 1	1	
+13    	          sweet 	 1	 0.699	0.699	
+14    	      character 	 1	 1	1	
+15    	           open 	 1	 1	1	
+16    	 ready-to-drink 	 1	 1.301	1.301	
+17    	           wine 	 2	 0.26	0.52	
+
+
+
+Similitud entre documentos 
+
+	Doc0	Doc1	Doc2	Doc3	Doc4	Doc5	Doc6	Doc7	Doc8	Doc9	Doc10	Doc11	Doc12	Doc13	Doc14	Doc15	Doc16	Doc17	Doc18	Doc19	
+Doc0	1	0.097	0	0	0.006	0.005	0	0.01	0.012	0.099	0	0.039	0.112	0.005	0	0.028	0	0.007	0.007	0.296
+Doc1	0.097	1	0	0	0.004	0.004	0	0.094	0.009	0.082	0	0.003	0.077	0.046	0	0.002	0.053	0.005	0.021	0.006
+Doc2	0	0	1	0.008	0.055	0	0.062	0.021	0.042	0.039	0.138	0.007	0.041	0.005	0.008	0.022	0	0.01	0.011	0.021
+Doc3	0	0	0.008	1	0.026	0	0.006	0.112	0	0	0	0.009	0	0.072	0.01	0	0	0.013	0.019	0
+Doc4	0.006	0.004	0.055	0.026	1	0.03	0.009	0.004	0.005	0.02	0.031	0.013	0.104	0.144	0.014	0.01	0	0.159	0.119	0
+Doc5	0.005	0.004	0	0	0.03	1	0.032	0.004	0.005	0.032	0	0.102	0.038	0.003	0.079	0.021	0	0.03	0.014	0.021
+Doc6	0	0	0.062	0.006	0.009	0.032	1	0.016	0.066	0.022	0.021	0.015	0	0.004	0.042	0.032	0	0.062	0.017	0.016
+Doc7	0.01	0.094	0.021	0.112	0.004	0.004	0.016	1	0.028	0.01	0	0.011	0.014	0.009	0.008	0.002	0.044	0.015	0.017	0.006
+Doc8	0.012	0.009	0.042	0	0.005	0.005	0.066	0.028	1	0.031	0	0.004	0.15	0.004	0.023	0.003	0	0.006	0.036	0.076
+Doc9	0.099	0.082	0.039	0	0.02	0.032	0.022	0.01	0.031	1	0	0.029	0.096	0.003	0.062	0.017	0	0.009	0.03	0.044
+Doc10	0	0	0.138	0	0.031	0	0.021	0	0	0	1	0	0	0.025	0	0	0.077	0.046	0	0
+Doc11	0.039	0.003	0.007	0.009	0.013	0.102	0.015	0.011	0.004	0.029	0	1	0.056	0.006	0.053	0.032	0	0.017	0.002	0.033
+Doc12	0.112	0.077	0.041	0	0.104	0.038	0	0.014	0.15	0.096	0	0.056	1	0.007	0.053	0.005	0	0.104	0.035	0.129
+Doc13	0.005	0.046	0.005	0.072	0.144	0.003	0.004	0.009	0.004	0.003	0.025	0.006	0.007	1	0.007	0	0.069	0.046	0.074	0
+Doc14	0	0	0.008	0.01	0.014	0.079	0.042	0.008	0.023	0.062	0	0.053	0.053	0.007	1	0.026	0	0.013	0.014	0
+Doc15	0.028	0.002	0.022	0	0.01	0.021	0.032	0.002	0.003	0.017	0	0.032	0.005	0	0.026	1	0.036	0.057	0.002	0.023
+Doc16	0	0.053	0	0	0	0	0	0.044	0	0	0.077	0	0	0.069	0	0.036	1	0	0.016	0
+Doc17	0.007	0.005	0.01	0.013	0.159	0.03	0.062	0.015	0.006	0.009	0.046	0.017	0.104	0.046	0.013	0.057	0	1	0.003	0.045
+Doc18	0.007	0.021	0.011	0.019	0.119	0.014	0.017	0.017	0.036	0.03	0	0.002	0.035	0.074	0.014	0.002	0.016	0.003	1	0.005
+Doc19	0.296	0.006	0.021	0	0	0.021	0.016	0.006	0.076	0.044	0	0.033	0.129	0	0	0.023	0	0.045	0.005	1
