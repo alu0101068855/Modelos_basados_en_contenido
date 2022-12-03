@@ -79,9 +79,9 @@ $ node index.js -d ./doc_entrada/documents-01.txt -l ./lemat/corpus-en.txt -p ./
 Para comprobar el correcto funcionamiento de la práctica, se han empleado los ficheros proporcionados y se han almacenado los resultados en los ficheros de **Salida**.
 | Fichero de entrada | Fichero de salida |
 | ----------- | ----------- |
-| [documents-01.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/documents-01.txt) | [Salida_Documento1.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/Salida_Documento1.txt) | 
-| [documents-02.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/documents-02.txt) | [Salida_Documento2.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/Salida_Documento2.txt) | 
-| [documents-03.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/documents-03.txt) | [Salida_Documento3.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/Salida_Documento3.txt) | 
+| [documents-01.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_entrada/documents-01.txt) | [Salida_Documento1.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_salida/Salida_Documento1.txt) | 
+| [documents-02.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_entrada/documents-02.txt) | [Salida_Documento2.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_salida/Salida_Documento2.txt) | 
+| [documents-03.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_entrada/documents-03.txt) | [Salida_Documento3.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_salida/Salida_Documento3.txt) | 
 
 ---
 
