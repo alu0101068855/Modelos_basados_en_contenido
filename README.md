@@ -58,10 +58,10 @@ against
 ---
 ### Ejecución del programa
 
-Para visualizar la información por consola, ejecutamos el comando una vez estemos situados en la ruta **/src**:
+Para visualizar la información por consola, ejecutamos el comando:
 
 ```
-/src$ node index.js -d documento.txt -p stop-words.txt -l lematizacion.txt
+$ node index.js -d ./doc_entrada/documents-01.txt -l ./lemat/corpus-en.txt -p ./stop-words/stop-words-en.txt 
 ```
 
 Donde **-d** puede sustituirse por **--documento**, **-p** por **--palabra** y **-l** por **--lematizacion**, siguiendo el estilo [POSIX](https://nullprogram.com/blog/2020/08/01/)
@@ -73,7 +73,7 @@ A continuación podemos observar una imagen de ejemplo de uso:
 En caso de querer volcar la información en un fichero, escribimos `> nombreFichero.txt` al final del comando. Como por ejemplo:
 
 ```
-/src$ node index.js -d documento.txt -p stop-words.txt -l lematizacion.txt > ficheroSalida.txt
+$ node index.js -d ./doc_entrada/documents-01.txt -l ./lemat/corpus-en.txt -p ./stop-words/stop-words-en.txt > ficheroSalida.txt
 ```
 
 Para comprobar el correcto funcionamiento de la práctica, se han empleado los ficheros proporcionados:
