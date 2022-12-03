@@ -1,0 +1,248 @@
+Documento  0 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	         aromas 	 1	 0.398	0.398	
+2    	        include 	 1	 1	1	
+3    	       tropical 	 1	 1	1	
+4    	          fruit 	 1	 0.699	0.699	
+5    	          broom 	 1	 1	1	
+6    	      brimstone 	 1	 1	1	
+7    	           herb 	 1	 0.699	0.699	
+8    	         palate 	 1	 0.523	0.523	
+9    	         overly 	 1	 1	1	
+10    	     expressive 	 1	 1	1	
+11    	          offer 	 1	 0.699	0.699	
+12    	      unripened 	 1	 1	1	
+13    	          apple 	 1	 0.699	0.699	
+14    	         citrus 	 1	 1	1	
+15    	          dried 	 2	 0.699	1.398	
+16    	           sage 	 1	 1	1	
+17    	          brisk 	 1	 0.699	0.699	
+18    	        acidity 	 1	 0.155	0.155	
+
+
+
+Documento  1 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	           ripe 	 1	 1	1	
+2    	         fruity 	 1	 0.699	0.699	
+3    	           wine 	 1	 0.301	0.301	
+4    	         smooth 	 1	 1	1	
+5    	     structured 	 1	 1	1	
+6    	           firm 	 1	 0.699	0.699	
+7    	        tannins 	 1	 0.699	0.699	
+8    	           fill 	 1	 1	1	
+9    	          juicy 	 1	 1	1	
+10    	            red 	 1	 0.699	0.699	
+11    	          berry 	 1	 0.699	0.699	
+12    	         fruits 	 1	 0.699	0.699	
+13    	      freshened 	 1	 1	1	
+14    	        acidity 	 1	 0.155	0.155	
+15    	      drinkable 	 1	 1	1	
+16    	           2016 	 1	 1	1	
+
+
+
+Documento  2 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	           tart 	 1	 1	1	
+2    	         snappy 	 1	 1	1	
+3    	           lime 	 1	 1	1	
+4    	          flesh 	 1	 1	1	
+5    	           rind 	 1	 0.699	0.699	
+6    	       dominate 	 1	 1	1	
+7    	          green 	 1	 0.699	0.699	
+8    	      pineapple 	 1	 0.699	0.699	
+9    	          pokes 	 1	 1	1	
+10    	          crisp 	 1	 0.699	0.699	
+11    	        acidity 	 1	 0.155	0.155	
+12    	   underscoring 	 1	 1	1	
+13    	        flavors 	 2	 0.523	1.046	
+14    	           wine 	 1	 0.301	0.301	
+15    	stainless-steel 	 1	 1	1	
+16    	      fermented 	 1	 1	1	
+
+
+
+Documento  3 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	      pineapple 	 1	 0.699	0.699	
+2    	           rind 	 1	 0.699	0.699	
+3    	          lemon 	 1	 1	1	
+4    	           pith 	 1	 1	1	
+5    	         orange 	 1	 1	1	
+6    	        blossom 	 1	 1	1	
+7    	          start 	 1	 1	1	
+8    	         aromas 	 1	 0.398	0.398	
+9    	         palate 	 1	 0.523	0.523	
+10    	           bite 	 1	 1	1	
+11    	        opulent 	 1	 1	1	
+12    	           note 	 1	 0.699	0.699	
+13    	 honey-drizzled 	 1	 1	1	
+14    	          guava 	 1	 1	1	
+15    	          mango 	 1	 1	1	
+16    	           give 	 1	 1	1	
+17    	       slightly 	 1	 1	1	
+18    	     astringent 	 1	 1	1	
+19    	        semidry 	 1	 1	1	
+20    	         finish 	 1	 0.699	0.699	
+
+
+
+Documento  4 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	        regular 	 1	 1	1	
+2    	       bottling 	 1	 1	1	
+3    	           2012 	 1	 1	1	
+4    	          rough 	 1	 1	1	
+5    	         tannic 	 1	 1	1	
+6    	         rustic 	 1	 1	1	
+7    	         earthy 	 1	 1	1	
+8    	         herbal 	 1	 0.699	0.699	
+9    	characteristics 	 1	 1	1	
+10    	     pleasantly 	 1	 1	1	
+11    	        unfussy 	 1	 1	1	
+12    	        country 	 1	 1	1	
+13    	           wine 	 1	 0.301	0.301	
+14    	           good 	 1	 1	1	
+15    	      companion 	 1	 1	1	
+16    	         hearty 	 1	 1	1	
+17    	         winter 	 1	 1	1	
+18    	           stew 	 1	 1	1	
+
+
+
+Documento  5 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	     blackberry 	 1	 1	1	
+2    	      raspberry 	 1	 1	1	
+3    	         aromas 	 1	 0.398	0.398	
+4    	           show 	 1	 1	1	
+5    	        typical 	 1	 1	1	
+6    	       navarran 	 1	 1	1	
+7    	          whiff 	 1	 1	1	
+8    	          green 	 1	 0.699	0.699	
+9    	          herbs 	 1	 1	1	
+10    	           case 	 1	 1	1	
+11    	    horseradish 	 1	 1	1	
+12    	          mouth 	 1	 1	1	
+13    	           full 	 1	 1	1	
+14    	         bodied 	 1	 1	1	
+15    	       tomatoey 	 1	 1	1	
+16    	        acidity 	 1	 0.155	0.155	
+17    	          spicy 	 1	 1	1	
+18    	         herbal 	 1	 0.699	0.699	
+19    	        flavors 	 1	 0.523	0.523	
+20    	     complement 	 1	 1	1	
+21    	           dark 	 1	 1	1	
+22    	           plum 	 1	 1	1	
+23    	          fruit 	 1	 0.699	0.699	
+24    	         finish 	 1	 0.699	0.699	
+25    	          fresh 	 1	 0.398	0.398	
+26    	         grabby 	 1	 1	1	
+
+
+
+Documento  6 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	         bright 	 1	 1	1	
+2    	       informal 	 1	 1	1	
+3    	            red 	 1	 0.699	0.699	
+4    	           open 	 1	 1	1	
+5    	         aromas 	 1	 0.398	0.398	
+6    	        candied 	 1	 1	1	
+7    	          berry 	 1	 0.699	0.699	
+8    	          white 	 1	 1	1	
+9    	         pepper 	 1	 1	1	
+10    	         savory 	 1	 0.699	0.699	
+11    	           herb 	 1	 0.699	0.699	
+12    	          carry 	 1	 1	1	
+13    	         palate 	 1	 0.523	0.523	
+14    	        balance 	 1	 0.523	0.523	
+15    	          fresh 	 1	 0.398	0.398	
+16    	        acidity 	 1	 0.155	0.155	
+17    	           soft 	 1	 1	1	
+18    	        tannins 	 1	 0.699	0.699	
+
+
+
+Documento  7 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	            dry 	 1	 0.699	0.699	
+2    	       restrain 	 1	 1	1	
+3    	           wine 	 1	 0.301	0.301	
+4    	          offer 	 1	 0.699	0.699	
+5    	          spice 	 1	 0.699	0.699	
+6    	      profusion 	 1	 1	1	
+7    	        balance 	 1	 0.523	0.523	
+8    	        acidity 	 1	 0.155	0.155	
+9    	           firm 	 1	 0.699	0.699	
+10    	        texture 	 1	 0.699	0.699	
+11    	           food 	 1	 1	1	
+
+
+
+Documento  8 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	         savory 	 1	 0.699	0.699	
+2    	          dried 	 1	 0.699	0.699	
+3    	          thyme 	 1	 1	1	
+4    	           note 	 1	 0.699	0.699	
+5    	         accent 	 1	 1	1	
+6    	        sunnier 	 1	 1	1	
+7    	        flavors 	 1	 0.523	0.523	
+8    	       preserve 	 1	 1	1	
+9    	          peach 	 1	 1	1	
+10    	          brisk 	 1	 0.699	0.699	
+11    	        off-dry 	 1	 1	1	
+12    	           wine 	 1	 0.301	0.301	
+13    	         fruity 	 1	 0.699	0.699	
+14    	          fresh 	 1	 0.398	0.398	
+15    	        elegant 	 1	 1	1	
+16    	      sprightly 	 1	 1	1	
+17    	      footprint 	 1	 1	1	
+
+
+
+Documento  9 
+
+Índice	 	Término		 TF	 IDF	 TF-IDF	
+1    	          great 	 1	 1	1	
+2    	          depth 	 1	 1	1	
+3    	         flavor 	 1	 1	1	
+4    	          fresh 	 1	 0.398	0.398	
+5    	          apple 	 1	 0.699	0.699	
+6    	           pear 	 1	 1	1	
+7    	         fruits 	 1	 0.699	0.699	
+8    	          touch 	 1	 1	1	
+9    	          spice 	 1	 0.699	0.699	
+10    	            dry 	 1	 0.699	0.699	
+11    	        balance 	 1	 0.523	0.523	
+12    	        acidity 	 1	 0.155	0.155	
+13    	          crisp 	 1	 0.699	0.699	
+14    	        texture 	 1	 0.699	0.699	
+15    	          drink 	 1	 1	1	
+
+
+
+Similitud entre documentos 
+
+	Doc0	Doc1	Doc2	Doc3	Doc4	Doc5	Doc6	Doc7	Doc8	Doc9	
+Doc0	1	0.002	0.002	0.029	0	0.04	0.075	0.057	0.114	0.045
+Doc1	0.002	1	0.01	0	0.007	0.002	0.133	0.075	0.05	0.05
+Doc2	0.002	0.01	1	0.069	0.006	0.067	0.002	0.014	0.053	0.048
+Doc3	0.029	0	0.069	1	0	0.035	0.032	0	0.035	0
+Doc4	0	0.007	0.006	0	1	0.026	0	0.009	0.006	0
+Doc5	0.04	0.002	0.067	0.035	0.026	1	0.022	0.002	0.028	0.013
+Doc6	0.075	0.133	0.002	0.032	0	0.022	1	0.037	0.056	0.044
+Doc7	0.057	0.075	0.014	0	0.009	0.002	0.037	1	0.011	0.238
+Doc8	0.114	0.05	0.053	0.035	0.006	0.028	0.056	0.011	1	0.015
+Doc9	0.045	0.05	0.048	0	0	0.013	0.044	0.238	0.015	1
