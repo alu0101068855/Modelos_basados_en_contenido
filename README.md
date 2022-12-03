@@ -76,11 +76,215 @@ En caso de querer volcar la información en un fichero, escribimos `> nombreFich
 $ node index.js -d ./doc_entrada/documents-01.txt -l ./lemat/corpus-en.txt -p ./stop-words/stop-words-en.txt > ficheroSalida.txt
 ```
 
-Para comprobar el correcto funcionamiento de la práctica, se han empleado los ficheros proporcionados:
+Para comprobar el correcto funcionamiento de la práctica, se han empleado los ficheros proporcionados y se han almacenado los resultados en los ficheros de **Salida**.
 | Fichero de entrada | Fichero de salida |
 | ----------- | ----------- |
-| [documents-01.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_entrada/documents-01.txt) | [Salida_Documento1.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_salida/Salida_Documento1.txt) | 
-| [documents-02.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_entrada/documents-02.txt) | [Salida_Documento2.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_salida/Salida_Documento2.txt) | 
-| [documents-03.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_entrada/documents-03.txt) | [Salida_Documento3.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/doc_salida/Salida_Documento3.txt) | 
+| [documents-01.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/documents-01.txt) | [Salida_Documento1.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/Salida_Documento1.txt) | 
+| [documents-02.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/documents-02.txt) | [Salida_Documento2.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/Salida_Documento2.txt) | 
+| [documents-03.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/documents-03.txt) | [Salida_Documento3.txt](https://github.com/alu0101068855/Modelos_basados_en_contenido/blob/main/src/Salida_Documento3.txt) | 
+
+---
 
 ### Descripción
+
+### Lectura del fichero y eliminación de palabras (stopwords)
+
+Mediante el uso de una clase **Gestor** se copian los valores de los ficheros y 
+con la clase **StopWords** se almacenan las palabras que no se pretenden analizar como los artículos, conectores, preposiciones, etc.
+
+En la clase **Matriz** se formatea el contenido del fichero a analizar.
+
+```Javascript
+for (var i = 1; i <= contenido.getNumbOfLines(); i++) {
+  var filas = contenido.getLine(i);
+  this.words = filas.split(' ');
+  for (var i_1 = 0; i_1 != this.words.length; i_1++) {
+    // Eliminar puntos, comas, etc
+    this.words[i_1] = this.words[i_1].replace(this.regex, '');
+    // Poner palabras en minuscula
+    this.words[i_1] = this.words[i_1].toLowerCase();
+  }
+  // Elimina "palabras" vacías
+  var index = this.words.indexOf('', 0);
+  if (index > -1) {
+    this.words.splice(index, 1);
+  }
+  this.matrixInicial[i - 1] = this.words;
+}
+```
+
+Para eliminar las palabras de StopWords se realiza la función **DeleteStopWords** que analiza si la matriz de uso (matrixInicial) contiene palabras del vector de StopWords las sustituye por el valor **-** y se genera una nueva matriz ya sin las palabras a eliminar (**matrixSinStop**).
+
+```Javascript
+Matriz.prototype.deleteStopWords = function (stopW, file) {
+  var vectorStop = stopW.getStopWords();
+  // Mapeamos los valores y los cambiamos 
+  var map = new Map(Object.entries(JSON.parse(file)));
+  for (var i = 0; i < this.matrixInicial.length; i++) {
+    for (var j = 0; j < this.matrixInicial[i].length; j++) {
+      if (map.has(this.matrixInicial[i][j])) {
+        this.matrixInicial[i][j] = String(map.get(this.matrixInicial[i][j]));
+      }
+    }
+  }
+  for (var i = 0; i < this.matrixInicial.length; i++) {
+    var fila = [];
+    for (var j = 0; j < this.matrixInicial[i].length; j++) {
+      for (var k = 0; k < stopW.getStopWordsLength(); k++) {
+        if (this.matrixInicial[i][j] === vectorStop[k]) {
+          this.matrixInicial[i][j] = '-';
+        }
+      }
+      if (this.matrixInicial[i][j] != '-') {
+        fila.push(this.matrixInicial[i][j]);
+      }
+    }
+    this.matrixSinStop.push(fila);
+  }
+};
+```
+
+Para almacenar un vector de las palabras únicas del documento, se utiliza la función **sinRepetir()** que almacena en **unicos** dichos valores. Este vector se utiliza en el calcuo de lso valores TF, IDF y TF-IDF.
+
+```javascript
+Matriz.prototype.sinRepetir = function () {
+  this.unicos.push(this.matrixSinStop[0][0]);
+  var repetido = 0;
+  for (var i = 0; i < this.matrixSinStop.length; i++) {
+    for (var j = 0; j < this.matrixSinStop[i].length; j++) {
+      for (var k = 0; k < this.unicos.length; k++) {
+        if (this.matrixSinStop[i][j] == this.unicos[k]) {
+          repetido++;
+        }
+      }
+      if (repetido == 0) {
+        this.unicos.push(this.matrixSinStop[i][j]);
+      }
+      repetido = 0;
+    }
+  }
+  };
+```
+
+### Método para almacenar TF
+
+El valor TF ("Term Frecuency") se calcula en base a la cantidad de veces que aparece una palabra en la matriz **matrixSinStop**. Para ello se crea la variable **auxWord** que almacena dicha palabra y el numero de veces que se encuentra en un documento. Los valores son almacenados en la variable **vectorTF**.
+
+```Javascript
+Matriz.prototype.calculoTF = function () {
+  var _loop_1 = function (i) {
+    var repetidos = {};
+    var filaVectorTF = [];
+    this_1.matrixSinStop[i].forEach(function (numero) {
+      repetidos[numero] = (repetidos[numero] || 0) + 1;
+      var auxWord = {
+        word: numero,
+        rep: repetidos[numero]
+      };
+      if (repetidos[numero] > 1) {
+        for (var i_2 = 0; i_2 < filaVectorTF.length; i_2++) {
+          if (numero == filaVectorTF[i_2].word && repetidos[numero] - 1 == filaVectorTF[i_2].rep) {
+            filaVectorTF.splice(i_2, 1);
+          }
+        }
+      }
+      filaVectorTF.push(auxWord);
+    });
+    this_1.vectorTF.push(filaVectorTF);
+  };
+  var this_1 = this;
+  for (var i = 0; i < this.matrixSinStop.length; i++) {
+    _loop_1(i);
+  }
+};
+```
+
+
+### Método para almacenar IDF 
+
+IDF ("Inverse Document Frequency") es la frecuencia con la que aparece el término en la colección de documentos.Los valores son almacenados en la variable **IDF**
+
+```javascript
+Matriz.prototype.calculoIDF = function () {
+  var _this = this;
+  var N = this.matrixSinStop.length;
+  var dfX = [];
+  var _loop_2 = function (i) {
+  var contadorPalabraFila = [];
+  var _loop_3 = function (j) {
+  var contPalabra = 0;
+  for (var k = 0; k < this_2.vectorTF.length; k++) {
+    var palabraVecesFila = this_2.vectorTF[k].filter(function (palabra) { return palabra.word == _this.vectorTF[i][j].word; });
+    if (palabraVecesFila.length > 0) {
+      contPalabra++;
+    }
+  }
+  contadorPalabraFila.push(contPalabra);
+  };
+  for (var j = 0; j < this_2.vectorTF[i].length; j++) {
+    _loop_3(j);
+  }
+  dfX.push(contadorPalabraFila);
+  };
+  var this_2 = this;
+  for (var i = 0; i < this.vectorTF.length; i++) {
+    _loop_2(i);
+  }
+  for (var i = 0; i < dfX.length; i++) {
+    var idfFila = [];
+    for (var j = 0; j < dfX[i].length; j++) {
+      idfFila.push(Number(Math.log10(N / dfX[i][j]).toFixed(3)));
+    }
+    this.IDF.push(idfFila);
+  }
+};
+```
+### Método para almacenar TF-IDF
+
+El valor TF-IDF se calcula como el producto entre los valores TF e IDF y se almacena en **vectorTFIDF**
+
+```javascript
+Matriz.prototype.calculoTFIDF = function () {
+  for (var i = 0; i < this.IDF.length; i++) {
+    var filaTFIDF = [];
+    for (var j = 0; j < this.IDF[i].length; j++) {
+      filaTFIDF.push(this.vectorTF[i][j].rep * this.IDF[i][j]);
+    }
+    this.vectorTFIDF.push(filaTFIDF);
+  }
+};
+```
+
+### Cálculo de la Similitud
+
+Finalmente para calcular la similitud entre documentos se ha generado visualmente una matriz con los documentos (valores en i y j) y sus similitudes almacenando su valores en la variable **matrixCoseno**.
+
+```javascript 
+Matriz.prototype.calculoSimilitudCoseno = function (doc1, doc2) {
+  var numerador = 0;
+  var denominadorIzq = 0;
+  var denominadorDrch = 0;
+  for (var i = 0; i < this.unicos.length; i++) {
+    numerador += (this.matrizsimilitudDocumentos[doc1][i] * this.matrizsimilitudDocumentos[doc2][i]);
+    denominadorIzq += Math.pow(this.matrizsimilitudDocumentos[doc1][i], 2);
+    denominadorDrch += Math.pow(this.matrizsimilitudDocumentos[doc2][i], 2);
+  }
+  var denominador = Math.sqrt(denominadorDrch) * Math.sqrt(denominadorIzq);
+  return Number((numerador / denominador).toFixed(3));
+};
+
+Matriz.prototype.MatrixCoseno = function () {
+  for (var i = 0; i < this.matrixSinStop.length; i++) {
+    var vectorAux = [];
+    for (var j = 0; j < this.matrixSinStop.length; j++) {
+      vectorAux.push(0);
+    }
+    this.matrixCoseno.push(vectorAux);
+  }
+  for (var i = 0; i < this.matrixCoseno.length; i++) {
+    for (var j = 0; j < this.matrixCoseno[i].length; j++) {
+      this.matrixCoseno[i][j] = this.calculoSimilitudCoseno(i, j);
+    }
+  }
+};
+```
